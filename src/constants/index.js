@@ -32,6 +32,12 @@ import {
   tailwindcss,
   threads,
   typescript,
+  google_docs,
+  miro,
+  care,
+  youtube,
+  uber,
+  thesis,
 } from "../assets/icons";
 
 export const skills = [
@@ -76,11 +82,6 @@ export const skills = [
     type: "Animation",
   },
   {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
     imageUrl: nextjs,
     name: "Next.js",
     type: "Frontend",
@@ -99,11 +100,6 @@ export const skills = [
     imageUrl: redux,
     name: "Redux",
     type: "State Management",
-  },
-  {
-    imageUrl: sass,
-    name: "Sass",
-    type: "Frontend",
   },
   {
     imageUrl: tailwindcss,
@@ -132,16 +128,17 @@ export const experiences = [
     ],
   },
   {
-    title: "Mobile App Developer - Power Platform Consultant",
+    title: "FullStack Web Developer",
     company_name: "L'Oreal",
     icon: loreal,
     iconBg: "#edc531",
     date: "March 2023 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Designing beautiful Ui and UX experiences and collaborating with other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using Next.js and other related technologies.",
+      "Built a travel booking app, a recycling management platform, and a parking lot reservation system using Next.js and related technologies.",
+      "Designed intuitive UI/UX experiences, ensuring seamless user interactions and high-quality product development through collaboration.",
+      "Implemented responsive design principles and ensured cross-browser compatibility for optimal performance.",
+      "Conducted code reviews, provided constructive feedback, and maintained best practices for scalable and maintainable codebases.",
     ],
   },
   {
@@ -149,12 +146,13 @@ export const experiences = [
     company_name: "BEWISE SA",
     icon: bewise,
     iconBg: "#E83882",
-    date: "March 2024 - Present",
+    date: "March 2024 - September 2024",
     points: [
-      "Developing and maintaining mobile applications using related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented and customized Power Platform solutions, including Power Apps, Power Automate, and Power BI, to meet business requirements.",
+      "Developed scalable and efficient workflows to automate business processes and improve operational efficiency.",
+      "Designed and optimized user-friendly applications with a focus on seamless UI/UX experiences.",
+      "Integrated Power Platform solutions with various data sources, including SharePoint, Dataverse, and third-party APIs.",
+      "Provided technical guidance, conducted training sessions, and collaborated with stakeholders to ensure successful implementation.",
     ],
   },
 ];
@@ -179,51 +177,55 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    iconUrl: google_docs,
+    theme: "btn-back-white",
+    name: "Google Docs Clone",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Developed a web application that replicates the core features of Google Docs, enabling users to create, edit, and share documents in real-time.",
+    link: "https://google-docs-khaki.vercel.app",
+    github_link: "https://github.com/MnCSD/google-docs",
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    iconUrl: miro,
+    theme: "btn-back-yellow",
+    name: "Miro Clone",
     description:
       'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+    link: "https://miro-two.vercel.app",
+    github_link: "https://github.com/MnCSD/miro",
   },
   {
-    iconUrl: car,
+    iconUrl: care,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Healthcare Application",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "Developed a healthcare application that connects patients with doctors, enabling users to book appointments, access medical records.",
+    link: "https://healthcare-three-alpha.vercel.app/",
+    github_link: "https://github.com/MnCSD/youtube",
   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    iconUrl: youtube,
+    theme: "btn-back-red",
+    name: "Full Stack Youtube Clone",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
+      "Developed a full-stack replica of the popular video-sharing platform YouTube, enabling users to upload, watch, and share videos.",
     link: "https://github.com/adrianhajdin/social_media_app",
   },
   {
-    iconUrl: estate,
+    iconUrl: uber,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Uber Clone",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+      "Developed a full-stack replica of the popular ride-sharing app Uber, enabling users to book rides, track drivers, and make payments.",
     link: "https://github.com/adrianhajdin/projects_realestate",
   },
   {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    iconUrl: thesis,
+    theme: "btn-back-green",
+    name: "Tutorly - FullStack Educational AI Educator(Thesis Project)",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Developed a full-stack educational platform that leverages AI to provide personalized learning experiences for students.",
+    link: "https://thesis-jet.vercel.app/",
+    github_link: "https://github.com/MnCSD/thesis",
   },
 ];
