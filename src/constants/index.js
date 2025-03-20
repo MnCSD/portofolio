@@ -209,15 +209,8 @@ export const projects = [
     name: "Full Stack Youtube Clone",
     description:
       "Developed a full-stack replica of the popular video-sharing platform YouTube, enabling users to upload, watch, and share videos.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: uber,
-    theme: "btn-back-black",
-    name: "Uber Clone",
-    description:
-      "Developed a full-stack replica of the popular ride-sharing app Uber, enabling users to book rides, track drivers, and make payments.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+    link: "https://youtube-virid-kappa.vercel.app",
+    github_link: "https://github.com/MnCSD/youtube",
   },
   {
     iconUrl: thesis,
